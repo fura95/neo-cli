@@ -1,0 +1,1 @@
+sudo apt-get install libleveldb-dev sqlite3 libsqlite3-dev libunwind8-dev -y; git clone https://github.com/neo-project/neo-cli.git; cd neo-cli; dotnet restore; dotnet publish -c release -r linux-x64;
